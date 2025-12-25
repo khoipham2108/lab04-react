@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link, Outlet, useParams, useNavigate, Routes, Route, MemoryRouter } from 'react-router-dom';
-import { useTheme } from './ABC';
+import { useTheme } from './ThemeContext';
 
 // --- PART 1 ---
 export const Part1 = () => {
