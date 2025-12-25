@@ -2,14 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-// 1. Import ThemeProvider
-import { ThemeProvider } from './components/ThemeContext' 
+
+// KHÔNG import ThemeProvider ở đây nữa
+// Vì App.jsx đã tự lo việc đó rồi
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* 2. Bọc ThemeProvider ở đây thay vì trong App.jsx */}
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
+    <App />
   </React.StrictMode>,
 )
