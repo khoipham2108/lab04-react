@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import './index.css';
 // 1. Import thêm useTheme để lấy trạng thái theme
-import { ThemeProvider, useTheme } from './components/MyThemeContext.jsx';
+import { ThemeProvider, useTheme } from './components/Context.jsx';
 import { Part1, Part2, Part3, Part4, Part5, Part6, Part7 } from './components/Parts';
 
 // 2. Tách nội dung chính ra một Component con (AppContent)
